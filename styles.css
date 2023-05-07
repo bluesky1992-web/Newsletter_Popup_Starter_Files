@@ -5,7 +5,7 @@ body {
 }
 .container {
   width: 400px;
-  height: 500px;
+  height: 530px;
   background-color: white;
   margin: 4% auto;
   border-radius: 12px;
@@ -47,7 +47,7 @@ input[type="text"] {
   padding: 10px;
   width: 55%;
 
-  border: 0.1px solid rgb(237,237,237);
+  border: 0.1px solid rgb(237, 237, 237);
   border-radius: 5px;
   height: 20px;
   background-color: rgb(250, 250, 250);
@@ -71,47 +71,43 @@ button {
   color: white;
   font-size: 14px;
   font-weight: 700;
-  cursor:pointer;
+  cursor: pointer;
   margin-left: 4px;
 }
-.container p:nth-last-child(2) {
-    font-size: 13px;
-    text-align: left;
-    margin-left: 30px;
-    opacity: 0.5;
-    
+.container .no-spam {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 30px;
+  opacity: 0.5;
 }
-/* .avatar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: ;
 
-} */
 
 .avatar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    
-  }
-  
-  
-  
-  .avatar h5 {
-    margin: 0;
-   
-  }
-  
-  .avatar p {
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  margin: 30px auto;
+}
+
+.horizontal-text p,
+h5 {
+  margin: 0;
+}
+
+.horizontal-text {
+  padding-left: 10px;
+}
+.horizontal-text p {
+  opacity: 0.7;
+  font-size: 15px;
+}
+.testimonial {
+    font-size: 14px;
+    margin: 5px 10px ;
+    max-width:375px ;
+    opacity: 0.7;
    
 
-  }
-  
-  .horizontal-text {
-
-    
-  }
+}
